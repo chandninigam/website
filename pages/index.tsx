@@ -1,3 +1,4 @@
+import Footer from "../src/footer/main";
 import Header from "../src/home/main";
 
 export default function Home() {
@@ -5,7 +6,7 @@ export default function Home() {
     <div>
       <Header />
       <div className="body">Body</div>
-      <div className="footer">Footer</div>
+      <Footer />
     </div>
   );
 }
