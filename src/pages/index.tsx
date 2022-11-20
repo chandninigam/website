@@ -1,11 +1,12 @@
 import Footer from "../component/footer/main";
 import Header from "../component/home/main";
+import styles from "../../styles/Container.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
       <Header />
-      <div className="body">Body</div>
+      <div className="content">Body</div>
       <Footer />
     </div>
   );
