@@ -1,13 +1,13 @@
-import Footer from "../component/footer/main";
-import Header from "../component/home/main";
-import styles from "../../styles/Container.module.css";
+import Container from "../components/container";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <Container>
       <Header />
       <div className="content">Body</div>
       <Footer />
-    </div>
+    </Container>
   );
 }
