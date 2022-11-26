@@ -1,12 +1,13 @@
-import Footer from "../component/footer/main";
-import Header from "../component/home/main";
+import Container from "../components/container";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div>
+    <Container>
       <Header />
-      <div className="body">Body</div>
+      <div className="content">Body</div>
       <Footer />
-    </div>
+    </Container>
   );
 }
