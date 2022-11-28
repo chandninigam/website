@@ -1,3 +1,25 @@
+
+import Link from "next/link";
+
 export default function Header() {
-  return <div className="container">Header</div>;
-}
+  return (
+    <div className="container">
+      <h1>Chandni Nigam</h1>
+      <nav>
+        <ul>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/blogs">Blogs</Link>
+          </li>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
+          <li>
+            <Link href="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  );
