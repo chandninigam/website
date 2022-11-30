@@ -1,0 +1,18 @@
+.container {
+  background-color: #ededed;
+}
+
+.heading {
+  padding: 0;
+  margin: 0;
+  padding: 1.5rem 0rem 1rem 1rem;
+}
+.ulHeader {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+.liHeader {
+  padding-inline: 1rem;
+}
