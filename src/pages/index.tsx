@@ -4,7 +4,6 @@ import Footer from "../components/footer";
 import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
-import { serialize } from "next-mdx-remote/serialize";
 
 export default function Home(props) {
   return (
