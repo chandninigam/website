@@ -23,6 +23,7 @@ export default function Blog(props) {
 
 export function getServerSideProps(ctx) {
   const slug = ctx.params.slug;
+  console.log("params", ctx.params);
   console.log("slug", slug);
   const output = fs.readFileSync(`content/blogs/${slug}.md`, "utf-8");
   console.log("output", output);
