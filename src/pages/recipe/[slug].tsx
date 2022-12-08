@@ -1,10 +1,11 @@
-import { GetServerSidePropsContext } from "next";
+import { GetStaticPropsContext } from "next";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
 import Container from "../../components/container";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
+import path from "path";
 
 interface IBlogProps {
   slug: string;
@@ -28,7 +29,14 @@ export default function Blog(props: IBlogProps) {
   );
 }
 
-export function getServerSideProps(ctx: GetServerSidePropsContext) {
+export function getStaticPaths() {
+  return {
+    paths: [],
+    fallback: true,
+  };
+}
+
+export function getStaticProps(ctx: GetStaticPropsContext) {
   const slug = ctx.params!.slug as string;
   // console.log("params", ctx.params);
   // console.log("slug", slug);

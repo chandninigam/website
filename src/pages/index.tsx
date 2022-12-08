@@ -1,4 +1,4 @@
-import { GetServerSidePropsContext } from "next";
+import { GetStaticPathsContext } from "next";
 import Container from "../components/container";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -26,7 +26,7 @@ export default function Home(props: IHomeProps) {
   );
 }
 
-export async function getServerSideProps(ctx: GetServerSidePropsContext) {
+export async function getStaticProps(ctx: GetStaticPathsContext) {
   const homeContentPath = path.join("content");
   // console.log("homeContent", homeContentPath);
   const homeContent = fs.readFileSync(homeContentPath + "/Home.md", "utf-8");
