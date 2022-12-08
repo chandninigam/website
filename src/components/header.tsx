@@ -8,7 +8,7 @@ export interface NavData {
 
 const NavTabs: Array<NavData> = [
   { text: "Home", link: "/" },
-  { text: "Blogs", link: "/blogs" },
+  { text: "Recipes", link: "/recipe" },
   { text: "About", link: "/about" },
   { text: "Contact", link: "/contact" },
 ];
