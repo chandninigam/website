@@ -20,7 +20,7 @@ export default function Header() {
       <nav className={styles.nav}>
         <ul className={styles.ulHeader}>
           {NavTabs.map((tab) => (
-            <li className={styles.liHeader}>
+            <li className={styles.liHeader} key={tab.text}>
               <Link href={tab.link}>{tab.text}</Link>
             </li>
           ))}
