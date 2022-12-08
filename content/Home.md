@@ -1,8 +1,3 @@
----
-title: Home
-id: 1
----
+My name is Chandni Nigam, born and brought up in Lucknow. I have done my Bachelors in Computer Science Engineering from BBD: NITM. I’m passionate about web development and I work with different technologies including HTML, SCSS/CSS, Javascript/Typescript, React/React Native/Next. I currently work at <a href="https://jaxl.com/">Jaxl Innovation Private Limited</a>.
 
-My name is Chandni Nigam . I’m a front-end developer based in Lucknow. I have done my Bachelors in Engineering from BBD, located at Lucknow itself. I worked with different technologies like HTML , SCSS/CSS , Javascript / Typescript , React.js ,React Native , Next.js.
-I’m passionate about web development. I’m currently working at @jaxlinnovation private limited. It's a startup opened by ex-google.
-In my free time, I read books and worked on personal projects .
+In my free time, I like to read books, currently I'm reading Atomic Habits. I also like cooking .

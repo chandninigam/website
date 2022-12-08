@@ -1,3 +1,4 @@
+import { GetServerSidePropsContext } from "next";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
@@ -5,7 +6,13 @@ import Container from "../../components/container";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
 
-export default function Blog(props) {
+interface IBlogProps {
+  slug: string;
+  data: Record<string, any>;
+  markup: string;
+}
+
+export default function Blog(props: IBlogProps) {
   return (
     <Container>
       <Header />
@@ -21,17 +28,17 @@ export default function Blog(props) {
   );
 }
 
-export function getServerSideProps(ctx) {
-  const slug = ctx.params.slug;
-  console.log("params", ctx.params);
-  console.log("slug", slug);
-  const output = fs.readFileSync(`content/blogs/${slug}.md`, "utf-8");
-  console.log("output", output);
+export function getServerSideProps(ctx: GetServerSidePropsContext) {
+  const slug = ctx.params!.slug as string;
+  // console.log("params", ctx.params);
+  // console.log("slug", slug);
+  const output = fs.readFileSync(`content/recipe/${slug}.md`, "utf-8");
+  // console.log("output", output);
   const { content, data } = matter(output);
-  console.log("content", content);
-  console.log("data", data);
+  // console.log("content", content);
+  // console.log("data", data);
   const markup = marked(content);
-  console.log("markup", markup);
+  // console.log("markup", markup);
   return {
     props: {
       slug,
