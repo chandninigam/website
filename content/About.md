@@ -5,4 +5,4 @@ I am having 1.5+ yr experience. I have done my internship from <a href="https://
 
 I have also created Projects like Instagram parallel Ui in react native , Shopping Card Ecommerce website in react.js ,etc.
 When I am not working, I spend my time in fulfilling and relaxing pursuits such as cooking, reading, painting, and craft-making.
-I like to read books, currently I'm reading Atomic Habits. I readed further more books like Life is an amazing gift of god , The 7 habits of highly Effective people , The Fault in our Star.
+I like to read books, currently I'm reading Atomic Habits. I readed further more books like Life is an amazing Secret , The 7 Habits of Highly Effective People , and The Fault in our Star.
