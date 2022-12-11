@@ -1,0 +1,15 @@
+.container {
+  place-items: center;
+  padding: 1rem;
+  background-color: #f4eeee;
+}
+.subContainer {
+  display: flex;
+  justify-content: center;
+}
+.anchor {
+  margin-right: 1rem;
+}
+.text {
+  margin-right: 1rem;
+}

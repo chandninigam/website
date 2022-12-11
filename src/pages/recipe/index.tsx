@@ -12,12 +12,6 @@ export default function Blogs() {
           <li>
             <Link href="/blogs/my-first-blog">My First Blog</Link>
           </li>
-          <li>
-            <Link href="/blogs/my-second-blog">My Second Blog</Link>
-          </li>
-          <li>
-            <Link href="/blogs/my-third-blog">My Third Blog</Link>
-          </li>
         </ul>
       </main>
       <Footer />
