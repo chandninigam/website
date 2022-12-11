@@ -6,6 +6,7 @@ import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
+import styles from "../styles/Home.module.css";
 
 interface IHomeProps {
   content: string;
@@ -16,7 +17,7 @@ export default function Home(props: IHomeProps) {
     <Container>
       <Header />
       <div
-        className="content"
+        className={styles.content}
         dangerouslySetInnerHTML={{
           __html: props.content,
         }}

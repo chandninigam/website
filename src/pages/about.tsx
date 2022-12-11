@@ -6,6 +6,7 @@ import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
+import styles from "../styles/About.module.css";
 
 interface IAboutProps {
   content: string;
@@ -16,7 +17,7 @@ export default function About(props: IAboutProps) {
     <Container>
       <Header />
       <div
-        className="main-container"
+        className={styles.container}
         dangerouslySetInnerHTML={{
           __html: props.content,
         }}
