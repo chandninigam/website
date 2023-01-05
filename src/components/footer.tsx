@@ -5,10 +5,13 @@ export default function Footer() {
     <div className={styles.container}>
       <div className={styles.subContainer}>
         <span className={styles.text}> Connect with me :</span>
-        <a href="#" className={styles.anchor}>
+        <a href="https://github.com/chandninigam" className={styles.anchor}>
           Github
         </a>
-        <a href="#" className={styles.anchor}>
+        <a
+          href="https://linkedin.com/in/chandni-nigam/"
+          className={styles.anchor}
+        >
           LinkedIn
         </a>
       </div>
