@@ -6,7 +6,7 @@ import Header from "../../components/header";
 export default function Blogs() {
   return (
     <Container>
-      <Header />
+      <Header activeTab="Recipes" />
       <main>
         <ul>
           <li>

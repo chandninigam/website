@@ -15,7 +15,7 @@ interface IHomeProps {
 export default function Home(props: IHomeProps) {
   return (
     <Container>
-      <Header />
+      <Header activeTab="Home" />
       <div
         className={styles.content}
         dangerouslySetInnerHTML={{

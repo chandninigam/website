@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "../styles/Header.module.css";
+import { useState } from "react";
 
 export interface NavData {
   text: string;
@@ -13,16 +14,39 @@ const NavTabs: Array<NavData> = [
   { text: "Contact", link: "/contact" },
 ];
 
-export default function Header() {
+/**
+ * Tab Component
+ */
+export function Tab(props: { tab: NavData; activeTab: string }) {
+  if (props.tab.text === props.activeTab) {
+    return (
+      <li className={styles.liHeader}>
+        <Link href={props.tab.link} className={styles.active}>
+          {props.tab.text}
+        </Link>
+      </li>
+    );
+  }
+  return (
+    <li className={styles.liHeader}>
+      <Link href={props.tab.link} className={styles.link}>
+        {props.tab.text}
+      </Link>
+    </li>
+  );
+}
+
+/**
+ * Header
+ */
+export default function Header(props: { activeTab: string }) {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>Chandni Nigam</h1>
       <nav className={styles.nav}>
         <ul className={styles.ulHeader}>
           {NavTabs.map((tab) => (
-            <li className={styles.liHeader} key={tab.text}>
-              <Link href={tab.link}>{tab.text}</Link>
-            </li>
+            <Tab tab={tab} activeTab={props.activeTab} key={tab.text} />
           ))}
         </ul>
       </nav>
