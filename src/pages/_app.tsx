@@ -7,7 +7,6 @@ const roboto = Roboto({
 });
 
 function MyApp({ Component, pageProps }: any) {
-  console.log("appp execurted");
   return (
     <main className={roboto.className}>
       <Component {...pageProps} />;

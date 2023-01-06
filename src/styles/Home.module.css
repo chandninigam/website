@@ -1,3 +1,4 @@
 .content {
   padding-inline: 2rem;
+  overflow-y: auto;
 }
