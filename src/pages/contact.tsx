@@ -15,7 +15,7 @@ interface IContactProps {
 export default function Contact(props: IContactProps) {
   return (
     <Container>
-      <Header />
+      <Header activeTab="Contact" />
       <div
         className={styles.container}
         dangerouslySetInnerHTML={{

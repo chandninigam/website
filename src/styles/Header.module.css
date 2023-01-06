@@ -15,3 +15,11 @@
 .liHeader {
   padding-inline: 1rem;
 }
+.active {
+  color: black;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  color: #9c9b98;
+}

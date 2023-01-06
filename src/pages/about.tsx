@@ -15,7 +15,7 @@ interface IAboutProps {
 export default function About(props: IAboutProps) {
   return (
     <Container>
-      <Header />
+      <Header activeTab="About" />
       <div
         className={styles.container}
         dangerouslySetInnerHTML={{
