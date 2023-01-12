@@ -16,7 +16,7 @@ interface IBlogProps {
 export default function Blog(props: IBlogProps) {
   return (
     <Container>
-      <Header activeTab="" />
+      <Header activeTab="Recipes" />
       <main>
         <article
           dangerouslySetInnerHTML={{
