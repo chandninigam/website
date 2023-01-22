@@ -4,7 +4,7 @@ import Footer from "../../components/footer";
 import Header from "../../components/header";
 import styles from "../../styles/Recipe.module.css";
 
-export default function Blogs() {
+export default function Recipes() {
   return (
     <Container>
       <Header activeTab="Recipes" />
@@ -12,7 +12,7 @@ export default function Blogs() {
         <div className={styles.heading}>Recipe Lists</div>
         <ul>
           <li>
-            <Link href="/blogs/Maggie_Nutrients" className="recipe-link">
+            <Link href="/recipe/maggie-nutrients" className="recipe-link">
               Maggie With Full Nutrients
             </Link>
           </li>

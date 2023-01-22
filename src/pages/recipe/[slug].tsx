@@ -7,13 +7,13 @@ import Footer from "../../components/footer";
 import Header from "../../components/header";
 import path from "path";
 
-interface IBlogProps {
+interface IRecipeProps {
   slug: string;
   data: Record<string, any>;
   markup: string;
 }
 
-export default function Blog(props: IBlogProps) {
+export default function Recipe(props: IRecipeProps) {
   return (
     <Container>
       <Header activeTab="Recipes" />
