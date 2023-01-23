@@ -4,11 +4,22 @@ id: 1
 date: 12-1-2023
 ---
 
-# Maggie with full of Nutrients,.....
+# Maggie with full of Nutrients
 
-<h4>Timing:</h4> 10mins - 15mins    <h4>Servings:</h4> 2 Person
+<div style="display:flex ; gap:4rem ;">
+    <div  style='display: flex;
+    align-items: center;
+    gap: 0.5rem;'> 
+        <div style="font-weight:700">Timing:</div>10mins - 15mins
+    </div> 
+    <div style='display: flex;
+    align-items: center;
+    gap: 0.5rem;'>
+        <div style="font-weight:700">Servings:</div> 2 Person
+    </div>
+</div>
 
-### Basic Ingredients
+## Basic Ingredients
 
 #### Which easily available inside your kitchen
 
