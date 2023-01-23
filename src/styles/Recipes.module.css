@@ -1,0 +1,6 @@
+.heading {
+  display: flex;
+  padding: 0.5rem 0rem 0rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
