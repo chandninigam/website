@@ -5,7 +5,7 @@ import { marked } from "marked";
 import Container from "../../components/container";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
-import path from "path";
+import styles from "../../styles/Recipe.module.css";
 
 interface IRecipeProps {
   slug: string;
@@ -22,6 +22,7 @@ export default function Recipe(props: IRecipeProps) {
           dangerouslySetInnerHTML={{
             __html: props.markup,
           }}
+          className={styles.container}
         />
       </main>
       <Footer />
