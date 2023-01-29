@@ -4,3 +4,9 @@
   font-size: 1.2rem;
   font-weight: 700;
 }
+.lists {
+  list-style: none;
+}
+.recipeLink {
+  text-decoration: none;
+}
