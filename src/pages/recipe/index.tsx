@@ -27,25 +27,23 @@ export default function Recipes(props: IResultObject) {
         <div className={styles.heading}>Recipe Lists</div>
         <ul className={styles.lists}>
           {props.result.map((recipe) => {
-            // const recipeName = () => {
-            //   let nameReplace = recipe.slug.replace("-", " ");
-            //   console.log("nameReplace", nameReplace);
-            //   let words = nameReplace.split("");
-            //   console.log("split before", words);
-            //   words
-            //     .map((word) => {
-            //       return word[0].toUpperCase() + word.substring(1);
-            //     })
-            //     .join(" ");
-            //   console.log("split after", words);
-            // };
+            const recipeName = () => {
+              const str = recipe.slug;
+              const str1 = str.replace("-", " ").split(" ");
+              const newStr: string[] = [];
+              str1.map((word, i) => {
+                const w = word.charAt(0).toUpperCase() + word.slice(1);
+                newStr.push(w);
+              });
+              return newStr.join(" ");
+            };
             return (
               <li key={recipe.id}>
                 <Link
                   href={`/recipe/${recipe.slug}`}
                   className={styles.recipeLink}
                 >
-                  {recipe.slug}
+                  {recipeName()}
                 </Link>
               </li>
             );
