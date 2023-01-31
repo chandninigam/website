@@ -19,6 +19,10 @@ date: 31-1-2023
     </div>
 </div>
 
+<div style="text-align:center ; padding:1rem 0rem">
+<img src='https://geekrobocook.com/wp-content/uploads/2021/04/Honey-chilli-potato.jpg' style="max-width: 80%;border-radius: 1rem" alt='chilli-potato' />
+</div>
+
 ## Basic Ingredients
 
 #### Which easily available inside your kitchen
