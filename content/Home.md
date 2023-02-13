@@ -2,6 +2,75 @@ My name is Chandni Nigam, born and brought up in Lucknow. I have done my Bachelo
 
 In my free time, I like to read books, currently I'm reading Atomic Habits. I also like cooking .
 
-<h2>Skills</h2>
+<h2 style="margin: 2rem 0rem;">Technologies</h2>
 
-<ul><li>HTML5</li><li>Css/Scss</li><li>Javascript/Typescript</li><li>React.js</li><li>React Native</li><li>Next.js</li><li>Git</li><li>Github</li></ul>
+<ul style="display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    list-style: none;">
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">HTML5</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Css</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Scss</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Javascript</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Typescript</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">React.js</li>
+     <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Redux</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">React Native</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Next.js</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Git</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Github</li>
+     <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Frontend Developer</li>
+     <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Mobile Developer</li>
+</ul>
