@@ -4,6 +4,9 @@
   font-size: 1.2rem;
   font-weight: 700;
 }
+.container {
+  min-height: calc(100vh - 150px);
+}
 .lists {
   list-style: none;
 }
