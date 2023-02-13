@@ -1,4 +1,5 @@
 .container {
   padding-inline: 1rem;
   overflow-y: auto;
+  min-height: calc(100vh - 150px);
 }

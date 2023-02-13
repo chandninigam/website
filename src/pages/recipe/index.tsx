@@ -4,6 +4,7 @@ import Container from "../../components/container";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
 import styles from "../../styles/Recipes.module.css";
+import style from "../../styles/Recipes.module.css";
 import fs from "fs";
 import { marked } from "marked";
 import path from "path";
@@ -23,7 +24,7 @@ export default function Recipes(props: IResultObject) {
   return (
     <Container>
       <Header activeTab="Recipes" />
-      <main>
+      <main className={style.container}>
         <div className={styles.heading}>Recipe Lists</div>
         <ul className={styles.lists}>
           {props.result.map((recipe) => {
