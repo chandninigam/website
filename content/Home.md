@@ -63,14 +63,29 @@ In my free time, I like to read books, currently I'm reading Atomic Habits. I al
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     padding: 0.5rem 1.2rem;
     border-radius: 1rem;">Github</li>
-     <li style="background: white;
+    <li style="background: white;
     border: 1px solid #36363600;
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">Frontend Developer</li>
-     <li style="background: white;
+    border-radius: 1rem;">Frontend Development</li>
+    <li style="background: white;
     border: 1px solid #36363600;
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">Mobile Developer</li>
+    border-radius: 1rem;">Progressive Web App</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Mobile Development</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Version Control</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Web Development</li>
 </ul>
