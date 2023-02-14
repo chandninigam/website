@@ -21,6 +21,26 @@ interface IResultObject {
   result: [IRecipeDetail];
 }
 export default function Recipes(props: IResultObject) {
+  const getDate = (date: string) => {
+    const months: Array<string> = [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ];
+    const actualDate = new Date(date.split("-").reverse().join("-"));
+    const month = actualDate.getMonth();
+    return `${actualDate.getDate()} - ${months[month]}`;
+  };
+
   return (
     <Container>
       <Header activeTab="Recipes" />
@@ -39,7 +59,8 @@ export default function Recipes(props: IResultObject) {
               return newStr.join(" ");
             };
             return (
-              <li key={recipe.id}>
+              <li key={recipe.id} className={styles.list}>
+                <div className={styles.dateWrapper}>{getDate(recipe.date)}</div>
                 <Link
                   href={`/recipe/${recipe.slug}`}
                   className={styles.recipeLink}

@@ -8,8 +8,26 @@
   min-height: calc(100vh - 150px);
 }
 .lists {
+  margin-top: 1.5rem;
+  padding: 0;
   list-style: none;
+  padding-inline: 1rem;
+}
+.list {
+  display: flex;
+  background: white;
+  align-items: center;
+  margin-top: 1rem;
+}
+.dateWrapper {
+  font-weight: 600;
 }
 .recipeLink {
-  text-decoration: none;
+  flex: 1;
+  margin-left: 2rem;
+  font-weight: bold;
+  border: 1px solid #36363600;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  padding: 0.5rem 1.2rem;
+  border-radius: 1rem;
 }
