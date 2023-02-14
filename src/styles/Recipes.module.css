@@ -18,16 +18,28 @@
   background: white;
   align-items: center;
   margin-top: 1rem;
+  border: 1px solid #36363600;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  padding: 0.5rem 1.2rem;
+  border-radius: 1rem;
 }
 .dateWrapper {
   font-weight: 600;
+}
+.year {
+  display: flex;
+  color: #00000066;
+}
+.emptyDiv {
+  border-bottom: 1px solid #0000003b;
+  width: 100%;
+  height: 0.1px;
+  display: flex;
+  align-self: center;
+  margin-left: 0.4rem;
 }
 .recipeLink {
   flex: 1;
   margin-left: 2rem;
   font-weight: bold;
-  border: 1px solid #36363600;
-  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-  padding: 0.5rem 1.2rem;
-  border-radius: 1rem;
 }

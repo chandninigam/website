@@ -1,4 +1,5 @@
 import { GetStaticPropsContext } from "next";
+import { useState } from "react";
 import Link from "next/link";
 import Container from "../../components/container";
 import Footer from "../../components/footer";
@@ -9,6 +10,8 @@ import fs from "fs";
 import { marked } from "marked";
 import path from "path";
 import matter from "gray-matter";
+import { getTypeParameterOwner } from "typescript";
+import { render } from "react-dom";
 
 interface IRecipeDetail {
   title: string;
@@ -20,7 +23,18 @@ interface IRecipeDetail {
 interface IResultObject {
   result: [IRecipeDetail];
 }
-export default function Recipes(props: IResultObject) {
+
+function List(recipe: IRecipeDetail) {
+  const recipeName = () => {
+    const str = recipe.slug;
+    const str1 = str.replace("-", " ").split(" ");
+    const newStr: string[] = [];
+    str1.map((word, i) => {
+      const w = word.charAt(0).toUpperCase() + word.slice(1);
+      newStr.push(w);
+    });
+    return newStr.join(" ");
+  };
   const getDate = (date: string) => {
     const months: Array<string> = [
       "Jan",
@@ -40,7 +54,25 @@ export default function Recipes(props: IResultObject) {
     const month = actualDate.getMonth();
     return `${actualDate.getDate()} - ${months[month]}`;
   };
+  return (
+    <li className={styles.list}>
+      <div className={styles.dateWrapper}>{getDate(recipe.date)}</div>
+      <Link href={`/recipe/${recipe.slug}`} className={styles.recipeLink}>
+        {recipeName()}
+      </Link>
+    </li>
+  );
+}
 
+function Logic(recipe: IRecipeDetail) {
+  return (
+    <div key={recipe.id}>
+      <List {...recipe} />
+    </div>
+  );
+}
+
+export default function Recipes(props: IResultObject) {
   return (
     <Container>
       <Header activeTab="Recipes" />
@@ -48,27 +80,7 @@ export default function Recipes(props: IResultObject) {
         <div className={styles.heading}>Recipe Lists</div>
         <ul className={styles.lists}>
           {props.result.map((recipe) => {
-            const recipeName = () => {
-              const str = recipe.slug;
-              const str1 = str.replace("-", " ").split(" ");
-              const newStr: string[] = [];
-              str1.map((word, i) => {
-                const w = word.charAt(0).toUpperCase() + word.slice(1);
-                newStr.push(w);
-              });
-              return newStr.join(" ");
-            };
-            return (
-              <li key={recipe.id} className={styles.list}>
-                <div className={styles.dateWrapper}>{getDate(recipe.date)}</div>
-                <Link
-                  href={`/recipe/${recipe.slug}`}
-                  className={styles.recipeLink}
-                >
-                  {recipeName()}
-                </Link>
-              </li>
-            );
+            return <Logic key={recipe.id} {...recipe} />;
           })}
         </ul>
       </main>
