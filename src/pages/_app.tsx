@@ -9,7 +9,7 @@ const font = Source_Sans_Pro({
 function MyApp({ Component, pageProps }: any) {
   return (
     <main className={font.className}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </main>
   );
 }
