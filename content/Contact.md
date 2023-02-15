@@ -4,7 +4,7 @@ id: 1
 date: 28-11-2022
 ---
 
-You can connect with me
+<div style="font-weight: 600;font-size: 1.5rem; margin:1rem 0rem">You can connect with me </div>
 
 <div style="display:flex ; 
      align-items:center; 
@@ -13,7 +13,7 @@ You can connect with me
      <div style="
         font-weight:500;
         margin-left:1.4rem;
-        padding:1rem;
+        padding:0rem 1rem;
         "> +918787095139
      </div>
 </div>
