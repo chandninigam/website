@@ -1,4 +1,4 @@
-My name is Chandni Nigam, born and brought up in Lucknow. I have done my Bachelors in Computer Science Engineering from BBD: NITM. I’m passionate about web development and I work with different technologies including HTML, SCSS/CSS, Javascript/Typescript, React/React Native/Next. I currently work at <a href="https://jaxl.com/">Jaxl Innovation Private Limited</a>.
+My name is Chandni Nigam, born and brought up in Lucknow. I have done my Bachelors in Computer Science Engineering from BBD: NITM. I’m passionate about web development and I work with different technologies including HTML, SCSS/CSS, Javascript/Typescript, React/React Native/Next. I currently work at <a href="https://jaxl.com/" style="color: #531fff; text-underline-position: under;">Jaxl Innovation Private Limited</a>.
 
 In my free time, I like to read books, currently I'm reading Atomic Habits. I also like cooking .
 
@@ -8,6 +8,21 @@ In my free time, I like to read books, currently I'm reading Atomic Habits. I al
     flex-wrap: wrap;
     gap:1rem;
     list-style: none;">
+     <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">React.js</li>
+     <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">Redux</li>
+    <li style="background: white;
+    border: 1px solid #36363600;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 0.5rem 1.2rem;
+    border-radius: 1rem;">React Native</li>
     <li style="background: white;
     border: 1px solid #36363600;
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
@@ -37,21 +52,6 @@ In my free time, I like to read books, currently I'm reading Atomic Habits. I al
     border: 1px solid #36363600;
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">React.js</li>
-     <li style="background: white;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">Redux</li>
-    <li style="background: white;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">React Native</li>
-    <li style="background: white;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
     border-radius: 1rem;">Next.js</li>
     <li style="background: white;
     border: 1px solid #36363600;
@@ -62,30 +62,5 @@ In my free time, I like to read books, currently I'm reading Atomic Habits. I al
     border: 1px solid #36363600;
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">Github</li>
-    <li style="background: white;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">Frontend Development</li>
-    <li style="background: white;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
     border-radius: 1rem;">Progressive Web App</li>
-    <li style="background: white;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">Mobile Development</li>
-    <li style="background: white;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">Version Control</li>
-    <li style="background: white;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">Web Development</li>
 </ul>

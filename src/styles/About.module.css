@@ -1,4 +1,6 @@
 .container {
+  max-width: 42rem;
+  margin-inline: auto;
   padding-inline: 1rem;
   overflow-y: auto;
   min-height: calc(100vh - 100px);

@@ -1,4 +1,6 @@
 .content {
   padding-inline: 1rem;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 150px);
+  max-width: 42rem;
+  margin-inline: auto;
 }
