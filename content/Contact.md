@@ -6,36 +6,47 @@ date: 28-11-2022
 
 You can connect with me
 
-<ul style="display: flex;
-    flex-direction:column;
-    gap:1rem;
-    list-style: none;
-    margin:1.5rem 0rem;
-    ">
-     <li style="background: white;
-     max-width:60px;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">
-    <a href="https://github.com/chandninigam">Github </a>
-    </li>
-     <li style="background: white;
-     max-width:60px;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">
-    <a href="https://linkedin.com/in/chandni-nigam/">LinkedIn </a>
-    </li>
-     <li style="background: white;
-     max-width:60px;
-    border: 1px solid #36363600;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    padding: 0.5rem 1.2rem;
-    border-radius: 1rem;">
-    <a href="https://twitter.com/nigamchandni139">Twitter </a>
-    </li>
-    </ul>
+<div style="display:flex ; 
+     align-items:center; 
+     font-weight:bold;
+     padding: 0.5rem; ">Phone No: 
+     <div style="
+        font-weight:500;
+        margin-left:1.4rem;
+        padding:1rem;
+        "> +918787095139
+     </div>
+</div>
 
-And can drop mail on nigamchandni139@gmail.com
+<div style="display:flex ; 
+     align-items:center; 
+     font-weight:bold;
+     padding: 0.5rem; ">Email: 
+     <div style="
+        font-weight:500;
+        padding:0 4rem;"><a href="#" style="color: #531fff; text-underline-position: under;">nigamchandni139@gmail.com</a>
+    </div>
+</div>
+
+<div style="display:flex ;
+     font-weight:bold; 
+     padding:1rem 0.5rem;">Other Links: 
+     <div style="
+        font-weight:600;"> 
+        <ul style="display: flex;
+        flex-direction:column;
+        gap:1rem;
+        margin: 0rem;
+        ">
+        <li>
+            <a href="https://github.com/chandninigam" style="color: #531fff;text-underline-position: under;font-weight: 400;">Github </a>
+        </li>
+        <li>
+            <a href="https://linkedin.com/in/chandni-nigam/" style="color: #531fff;text-underline-position: under;font-weight: 400;">LinkedIn </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/nigamchandni139" style="color: #531fff;text-underline-position: under;font-weight: 400;">Twitter </a>
+        </li>
+        </ul>
+     </div>
+</div>

@@ -9,6 +9,8 @@
 }
 .anchor {
   margin-right: 1rem;
+  color: #531fff;
+  text-underline-position: under;
 }
 .text {
   margin-right: 1rem;

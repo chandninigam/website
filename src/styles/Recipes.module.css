@@ -6,6 +6,9 @@
 }
 .container {
   min-height: calc(100vh - 150px);
+  max-width: 42rem;
+  margin-inline: auto;
+  width: 100%;
 }
 .lists {
   margin-top: 1.5rem;
@@ -42,4 +45,5 @@
   flex: 1;
   margin-left: 2rem;
   font-weight: bold;
+  text-underline-position: under;
 }
