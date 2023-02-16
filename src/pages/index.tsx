@@ -1,4 +1,5 @@
 import { GetStaticPathsContext } from "next";
+import { Head } from "../components/head";
 import Container from "../components/container";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -15,6 +16,7 @@ interface IHomeProps {
 export default function Home(props: IHomeProps) {
   return (
     <Container>
+      <Head />
       <Header activeTab="Home" />
       <div
         className={styles.content}
