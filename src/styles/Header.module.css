@@ -4,8 +4,8 @@
 .heading {
   padding: 0;
   margin: 0;
-  padding: 1.5rem 0rem 1rem 1rem;
-  max-width: 42rem;
+  padding: 1.5rem 1rem 1rem 1rem;
+  max-width: 40rem;
   margin-inline: auto;
 }
 .ulHeader {
