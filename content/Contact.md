@@ -9,18 +9,6 @@ date: 28-11-2022
 <div style="display:flex ; 
      align-items:center; 
      font-weight:bold;
-     padding: 0.5rem; ">Phone No: 
-     <div style="
-        font-weight:500;
-        margin-left:1.4rem;
-        padding:0rem 1rem;
-        "> +918787095139
-     </div>
-</div>
-
-<div style="display:flex ; 
-     align-items:center; 
-     font-weight:bold;
      padding: 0.5rem; ">Email: 
      <div style="
         font-weight:500;
