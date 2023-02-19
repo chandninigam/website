@@ -52,7 +52,7 @@ aside.
 
 Step 3: Add oil to pan and heat up. Then slow the gas and add potato slices ,for 4-5 min and then cook for high flame upto 2-3 mins.
 
-step 4: Add 1 tablespoon oil to new pan, add Garlic and ginger and cook for 2 mins.
+Step 4: Add 1 tablespoon oil to new pan, add Garlic and ginger and cook for 2 mins.
 
 Step 5: Add 1 tablespoon oil to new pan ,add Onion(chopped), Tomato(Chopped), Carrot(chopped), Capsicum(chopped) and give it stir and let
 them cook for a while (2-3mins)!.
