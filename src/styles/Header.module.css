@@ -24,8 +24,6 @@
   margin-inline: auto;
   gap: 1rem;
 }
-.liHeader {
-}
 .active {
   color: black;
   text-decoration: none;
