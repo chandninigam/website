@@ -16,7 +16,6 @@ interface IHomeProps {
 export default function Home(props: IHomeProps) {
   return (
     <Container>
-      <Head />
       <Header activeTab="Home" />
       <div
         className={styles.content}
