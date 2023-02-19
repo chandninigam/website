@@ -2,19 +2,6 @@
     .heading{
         margin:2rem 0rem;
     }
-    .wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        gap:1rem;
-        list-style: none;
-    }
-    .card{
-        background: white;
-        border: 1px solid #36363600;
-        box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-        padding: 0.5rem 1.2rem;
-        border-radius: 1rem;
-    }
 </style>
 
 My name is Chandni Nigam, born in Lucknow. I have pursued my primary education (10+2) from <abbr title='Rani Laxmi Bai'>RLB</abbr> with computer science as my primary subject choice. After that, I went for bachelor's in computer science engineering from <abbr title='Babu Banarsi Das'>BBD:</abbr><abbr title="National Information Technology Management">NITM</abbr>.
@@ -27,7 +14,7 @@ I like to read books, currently I'm reading Atomic Habits. (Perfect, no change n
 
 <h2 class="heading">Hobbies</h2>
 
-<ul class="wrapper">
+<ul class="card-wrapper">
     <li class="card">Reading Books</li>
     <li class="card">Travelling</li>
     <li class="card">Cooking</li>

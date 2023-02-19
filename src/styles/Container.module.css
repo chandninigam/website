@@ -1,4 +1,5 @@
 .container {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+  max-width: 42rem;
+  margin: 0rem auto;
+  padding: 0rem 1rem 1rem 1rem;
 }

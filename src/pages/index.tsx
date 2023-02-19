@@ -17,12 +17,12 @@ export default function Home(props: IHomeProps) {
   return (
     <Container>
       <Header activeTab="Home" />
-      <div
+      <main
         className={styles.content}
         dangerouslySetInnerHTML={{
           __html: props.content,
         }}
-      ></div>
+      />
       <Footer />
     </Container>
   );

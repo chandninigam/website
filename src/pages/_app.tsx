@@ -5,14 +5,15 @@ import { Head } from "../components/head";
 const font = Source_Sans_Pro({
   subsets: ["latin"],
   weight: ["400", "700"],
+  display: "swap",
 });
 
 function MyApp({ Component, pageProps }: any) {
   return (
-    <main className={font.className}>
+    <div className={font.className}>
       <Head />
       <Component {...pageProps} />
-    </main>
+    </div>
   );
 }
 
