@@ -2,12 +2,30 @@ html,
 body {
   padding: 0;
   margin: 0;
-  height: 100vh;
-  width: 100vw;
-  overflow: auto;
   line-height: 1.75em;
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+a {
+  color: #531fff;
+  text-underline-position: under;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  background: white;
+  border: 1px solid #36363600;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.6rem;
 }

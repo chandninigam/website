@@ -41,15 +41,17 @@ export function Tab(props: { tab: NavData; activeTab: string }) {
  */
 export default function Header(props: { activeTab: string }) {
   return (
-    <div className={styles.container}>
-      <h1 className={styles.heading}>Chandni Nigam</h1>
-      <nav className={styles.nav}>
-        <ul className={styles.ulHeader}>
-          {NavTabs.map((tab) => (
-            <Tab tab={tab} activeTab={props.activeTab} key={tab.text} />
-          ))}
-        </ul>
-      </nav>
-    </div>
+    <header className={styles.wrapper}>
+      <div className={styles.headerContent}>
+        <h1 className={styles.heading}>Chandni Nigam</h1>
+        <nav className={styles.nav}>
+          <ul className={styles.ulHeader}>
+            {NavTabs.map((tab) => (
+              <Tab tab={tab} activeTab={props.activeTab} key={tab.text} />
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </header>
   );
 }

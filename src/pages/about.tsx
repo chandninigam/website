@@ -16,12 +16,12 @@ export default function About(props: IAboutProps) {
   return (
     <Container>
       <Header activeTab="About" />
-      <div
-        className={styles.container}
+      <article
+        className={styles.wrapper}
         dangerouslySetInnerHTML={{
           __html: props.content,
         }}
-      ></div>
+      />
       <Footer />
     </Container>
   );

@@ -1,12 +1,19 @@
-.container {
+.wrapper {
   background-color: #ededed;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.headerContent {
+  max-width: 42rem;
+  padding: 0 1rem;
+  margin: 0 auto;
 }
 .heading {
   padding: 0;
   margin: 0;
-  padding: 1.5rem 1rem 1rem 1rem;
-  max-width: 40rem;
-  margin-inline: auto;
+  margin-top: 1rem;
 }
 .ulHeader {
   display: flex;
@@ -15,9 +22,9 @@
   padding-inline: 0rem;
   max-width: 42rem;
   margin-inline: auto;
+  gap: 1rem;
 }
 .liHeader {
-  padding-inline: 1rem;
 }
 .active {
   color: black;

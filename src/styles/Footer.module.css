@@ -1,17 +1,15 @@
 .container {
   place-items: center;
-  padding: 1rem;
   background-color: #f4eeee;
+  position: absolute;
+  width: 100%;
+  left: 0;
 }
 .subContainer {
   display: flex;
   justify-content: center;
-}
-.anchor {
-  margin-right: 1rem;
-  color: #531fff;
-  text-underline-position: under;
-}
-.text {
-  margin-right: 1rem;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  gap: 1rem;
 }

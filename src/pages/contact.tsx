@@ -16,12 +16,12 @@ export default function Contact(props: IContactProps) {
   return (
     <Container>
       <Header activeTab="Contact" />
-      <div
-        className={styles.container}
+      <main
+        className={styles.wrapper}
         dangerouslySetInnerHTML={{
           __html: props.content,
         }}
-      ></div>
+      />
       <Footer />
     </Container>
   );
