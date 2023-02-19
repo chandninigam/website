@@ -18,7 +18,7 @@ date: 28-11-2022
     }
     .valueEmail{
         font-weight:500;
-        padding:0 4rem;
+        padding-left:4rem;
     }
     .linkEmail{
         color: #531fff; 
