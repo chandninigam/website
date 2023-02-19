@@ -124,7 +124,7 @@ export async function getStaticProps(ctx: GetStaticPropsContext) {
     } else {
       map[year] = [{ ...data, slug: r.split(".md")[0] } as IRecipeDetail];
     }
-    map[year].sort((a, b) => a.id - b.id);
+    map[year].sort((a, b) => b.id - a.id);
   }
   return { props: { map } };
 }
