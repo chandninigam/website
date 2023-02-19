@@ -25,16 +25,6 @@ interface IResultObject {
 }
 
 function List(recipe: IRecipeDetail) {
-  const recipeName = () => {
-    const str = recipe.slug;
-    const str1 = str.replace("-", " ").split(" ");
-    const newStr: string[] = [];
-    str1.map((word, i) => {
-      const w = word.charAt(0).toUpperCase() + word.slice(1);
-      newStr.push(w);
-    });
-    return newStr.join(" ");
-  };
   const getDate = (date: string) => {
     const months: Array<string> = [
       "Jan",
@@ -58,7 +48,7 @@ function List(recipe: IRecipeDetail) {
     <li className={styles.list}>
       <div className={styles.dateWrapper}>{getDate(recipe.date)}</div>
       <Link href={`/recipe/${recipe.slug}`} className={styles.recipeLink}>
-        {recipeName()}
+        {recipe.title}
       </Link>
     </li>
   );
@@ -72,15 +62,43 @@ function Logic(recipe: IRecipeDetail) {
   );
 }
 
-export default function Recipes(props: IResultObject) {
+export default function Recipes(props: any) {
   return (
     <Container>
       <Header activeTab="Recipes" />
       <main className={style.container}>
         <div className={styles.heading}>Recipe Lists</div>
         <ul className={styles.lists}>
-          {props.result.map((recipe) => {
-            return <Logic key={recipe.id} {...recipe} />;
+          {Object.values(props).map((recipe: any) => {
+            return (
+              <>
+                {Object.entries(recipe).map((each) => {
+                  return (
+                    <>
+                      {each.map((r: any) => {
+                        if (typeof r === "string") {
+                          return (
+                            <>
+                              <div className={styles.yearWrapper}>
+                                <div className={styles.yearText}>{r}</div>
+                                <div className={styles.line}></div>
+                              </div>
+                            </>
+                          );
+                        }
+                        return (
+                          <>
+                            {r.map((arr: IRecipeDetail) => {
+                              return <Logic key={arr.id} {...arr} />;
+                            })}
+                          </>
+                        );
+                      })}
+                    </>
+                  );
+                })}
+              </>
+            );
           })}
         </ul>
       </main>
@@ -91,15 +109,22 @@ export default function Recipes(props: IResultObject) {
 
 export async function getStaticProps(ctx: GetStaticPropsContext) {
   const recipes = fs.readdirSync(path.resolve("content/recipe"));
-  const result = [];
+  const map: Record<string, Array<IRecipeDetail>> = {};
   for (const r of recipes) {
     const content = fs.readFileSync(
       path.resolve(`content/recipe/${r}`),
       "utf-8"
     );
     const { data } = matter(content);
-    result.push({ ...data, slug: r.split(".md")[0] });
+    const year = new Date(
+      data.date.split("-").reverse().join("-")
+    ).getFullYear();
+    if (map[year]) {
+      map[year].push({ ...data, slug: r.split(".md")[0] } as IRecipeDetail);
+    } else {
+      map[year] = [{ ...data, slug: r.split(".md")[0] } as IRecipeDetail];
+    }
+    map[year].sort((a, b) => a.id - b.id);
   }
-  result.sort((a, b) => Number(a) - Number(b));
-  return { props: { result } };
+  return { props: { map } };
 }

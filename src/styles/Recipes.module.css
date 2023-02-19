@@ -10,6 +10,21 @@
   margin-inline: auto;
   width: 100%;
 }
+.yearWrapper {
+  display: flex;
+  margin: 1rem 0rem;
+}
+.yearText {
+  color: grey;
+}
+.line {
+  height: 1px;
+  margin-left: 0.5rem;
+  width: 100%;
+  display: grid;
+  place-self: center;
+  background-color: #c0bdbd8c;
+}
 .lists {
   margin-top: 1.5rem;
   padding: 0;
