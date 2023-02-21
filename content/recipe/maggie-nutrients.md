@@ -19,6 +19,10 @@ date: 12-1-2023
     </div>
 </div>
 
+<div style="text-align:center ; padding:1rem 0rem">
+<img src='/maggie.jpg' style="max-width: 80%;border-radius: 1rem" alt='chilli-potato' />
+</div>
+
 ## Basic Ingredients
 
 #### Which easily available inside your kitchen
