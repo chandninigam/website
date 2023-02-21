@@ -1,5 +1,4 @@
 import { GetStaticPropsContext } from "next";
-import { useState } from "react";
 import Link from "next/link";
 import Container from "../../components/container";
 import Footer from "../../components/footer";
@@ -7,11 +6,8 @@ import Header from "../../components/header";
 import styles from "../../styles/Recipes.module.css";
 import style from "../../styles/Recipes.module.css";
 import fs from "fs";
-import { marked } from "marked";
 import path from "path";
 import matter from "gray-matter";
-import { getTypeParameterOwner } from "typescript";
-import { render } from "react-dom";
 
 interface IRecipeDetail {
   title: string;
@@ -107,23 +103,43 @@ export default function Recipes(props: any) {
   );
 }
 
+// Date Correct Format
+function dateCorrectFormat(date: string) {
+  const str = date.split("-");
+  const res = str.map((s) => {
+    if (s.length === 1) {
+      s = "0" + s;
+    }
+    return s;
+  });
+  return res.join("-");
+}
+
 export async function getStaticProps(ctx: GetStaticPropsContext) {
   const recipes = fs.readdirSync(path.resolve("content/recipe"));
   const map: Record<string, Array<IRecipeDetail>> = {};
+
   for (const r of recipes) {
     const content = fs.readFileSync(
       path.resolve(`content/recipe/${r}`),
       "utf-8"
     );
     const { data } = matter(content);
+    data.date = dateCorrectFormat(data.date);
+
     const year = new Date(
       data.date.split("-").reverse().join("-")
     ).getFullYear();
+
     if (map[year]) {
-      map[year].push({ ...data, slug: r.split(".md")[0] } as IRecipeDetail);
+      map[year].push({
+        ...data,
+        slug: r.split(".md")[0],
+      } as IRecipeDetail);
     } else {
       map[year] = [{ ...data, slug: r.split(".md")[0] } as IRecipeDetail];
     }
+
     map[year].sort((a, b) => b.id - a.id);
   }
   return { props: { map } };
