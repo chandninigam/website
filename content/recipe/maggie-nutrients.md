@@ -6,16 +6,18 @@ date: 12-1-2023
 
 # Maggie with full of Nutrients
 
-<div style="display:flex ; gap:4rem ;">
+<div style="display:flex ; gap:2rem ;">
     <div  style='display: flex;
     align-items: center;
     gap: 0.5rem;'> 
-        <div style="font-weight:700">Timing:</div>10mins - 15mins
+        <div style="font-weight:700">Timing:</div>
+        <div style="font-size:0.9rem">10mins - 15mins</div>
     </div> 
     <div style='display: flex;
     align-items: center;
     gap: 0.5rem;'>
-        <div style="font-weight:700">Servings:</div> 2 Person
+        <div style="font-weight:700">Servings:</div> 
+        <div style="font-size:0.9rem">2 Person</div>
     </div>
 </div>
 
