@@ -39,15 +39,9 @@ export function getStaticPaths() {
 
 export function getStaticProps(ctx: GetStaticPropsContext) {
   const slug = ctx.params!.slug as string;
-  // console.log("params", ctx.params);
-  // console.log("slug", slug);
   const output = fs.readFileSync(`content/recipe/${slug}.md`, "utf-8");
-  // console.log("output", output);
   const { content, data } = matter(output);
-  // console.log("content", content);
-  // console.log("data", data);
   const markup = marked(content);
-  // console.log("markup", markup);
   return {
     props: {
       slug,

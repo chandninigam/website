@@ -19,7 +19,6 @@ const NavTabs: Array<NavData> = [
  */
 export function Tab(props: { tab: NavData; activeTab: string }) {
   if (props.tab.text === props.activeTab) {
-    console.log("link name-->", props.tab.link);
     return (
       <li className={styles.liHeader}>
         <Link href={props.tab.link} className={styles.active}>

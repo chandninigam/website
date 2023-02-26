@@ -41,7 +41,7 @@ function List(recipe: IRecipeDetail) {
     return `${actualDate.getDate()} - ${months[month]}`;
   };
   return (
-    <li className={styles.list}>
+    <li className={styles.list} key={recipe.title}>
       <div className={styles.dateWrapper}>{getDate(recipe.date)}</div>
       <Link href={`/recipe/${recipe.slug}`} className={styles.recipeLink}>
         {recipe.title}
