@@ -62,7 +62,7 @@ export default function Recipes(props: any) {
   return (
     <Container>
       <Header activeTab="Recipes" />
-      <main className={style.container}>
+      <main className="content-wrapper">
         <div className={styles.heading}>Recipe Lists</div>
         <ul className={styles.lists}>
           {Object.values(props).map((recipe: any) => {

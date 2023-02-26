@@ -1,10 +1,10 @@
 ---
-title: Miggie with full of Nutrients
+title: Maggie with full of Nutrients
 id: 1
 date: 12-1-2023
 ---
 
-# Maggie with full of Nutrients
+<h1 style="margin-top:1rem">Maggie with full of Nutrients</h1>
 
 <div style="display:flex ; gap:2rem ;">
     <div  style='display: flex;
@@ -27,25 +27,25 @@ date: 12-1-2023
 
 ## Basic Ingredients
 
-#### Which easily available inside your kitchen
+Following are the basic ingredients which should be easily available inside your kitchen
 
-- 1 Packet : MAGGI 2-Minute Noodles (Masala)
-- 1 Tablespoon : oil
-- 1 Tomato : Fine chopped
-- 1 Onion : Fine chopped
-- 1 Green Chilli : Fine chopped
-- 1 Cup : Fresh Peas (If available)
-- Salt : As per taste
+- 1 Packet: Maggie 2-Minute Noodles (Masala)
+- 1 Tablespoon: Oil
+- 1 Tomato: Fine Chopped
+- 1 Onion: Fine Chopped
+- 1 Green Chilli: Fine Chopped
+- 1 Cup: Fresh Peas (If available)
+- Salt: As per taste
 
-### Instruction
+### Instructions
 
-Step 1: Prepare Ingredients as mentioned in above list.
+**Step 1:** Prepare ingredients as mentioned in above list.
 
-Step 2: Add Oil to pan , heat it .Then Onion(chopped), Tomato(Chopped), GreenChilli(chopped), Fresh Peas and give it stir and let them cook
-for a while (2-3mins)!
+**Step 2:** Add 0il to pan, heat it. Then onion(chopped), tomato(Chopped), greenChilli(chopped), fresh peas and give it stir and let them
+cook for a while (2-3mins)!
 
-Step 3: Cook one pack of MAGGI Masala Noodles (just follow the instructions on the pack!) in a separate pan.
+**Step 3:** Cook one pack of MAGGI Masala Noodles (just follow the instructions on the pack) in a separate pan.
 
-Step 4: Mix Vegetables with Maggie (Add Salt if needed). Cook for 1mins in high flame.
+**Step 4:** Mix Vegetables with Maggie (Add Salt if needed). Cook for 1mins in high flame.
 
-Step 5: You are ready to serve the easy peasy fun!
+**Step 5:** You are ready to serve the easy peasy fun.

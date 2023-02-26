@@ -17,7 +17,7 @@ export default function Contact(props: IContactProps) {
     <Container>
       <Header activeTab="Contact" />
       <main
-        className={styles.wrapper}
+        className="content-wrapper"
         dangerouslySetInnerHTML={{
           __html: props.content,
         }}
