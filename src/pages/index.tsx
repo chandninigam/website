@@ -18,7 +18,7 @@ export default function Home(props: IHomeProps) {
     <Container>
       <Header activeTab="Home" />
       <main
-        className={styles.content}
+        className="content-wrapper"
         dangerouslySetInnerHTML={{
           __html: props.content,
         }}

@@ -17,7 +17,7 @@ export default function About(props: IAboutProps) {
     <Container>
       <Header activeTab="About" />
       <article
-        className={styles.wrapper}
+        className="content-wrapper"
         dangerouslySetInnerHTML={{
           __html: props.content,
         }}

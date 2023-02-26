@@ -29,3 +29,8 @@ a {
   padding: 0.5rem 1.2rem;
   border-radius: 0.6rem;
 }
+.content-wrapper {
+  min-height: calc(100vh - 100px);
+  padding-top: 104px;
+  padding-bottom: 1rem;
+}

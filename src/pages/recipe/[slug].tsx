@@ -17,7 +17,7 @@ export default function Recipe(props: IRecipeProps) {
   return (
     <Container>
       <Header activeTab="Recipes" />
-      <main className={styles.wrapper}>
+      <main className="content-wrapper">
         <article
           dangerouslySetInnerHTML={{
             __html: props.markup,
