@@ -5,10 +5,9 @@
        margin-top:1rem;
     }
     .image{
-        height:200px;
-        width:200px;
-        border-radius:50%;
-        object-fit: contain;
+        height:150px;
+        width:150px;
+        object-fit: contain; 
     }
     .heading{
         margin:2rem 0rem;
@@ -16,7 +15,7 @@
 </style>
 
 <div class='wrapper'>
-  <img src='/self.jpg' class='image'/>
+  <img src='/chandni.jpg' class='image'/>
 </div>
 
 My name is Chandni Nigam, born in Lucknow. I have pursued my primary education (10+2) from <abbr title='Rani Laxmi Bai'>RLB</abbr> with computer science as my primary subject choice. After that, I went for bachelor's in computer science engineering from <abbr title='Babu Banarsi Das'>BBD:</abbr><abbr title="National Information Technology Management">NITM</abbr>.
