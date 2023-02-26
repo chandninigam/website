@@ -4,48 +4,73 @@ id: 1
 date: 12-1-2023
 ---
 
-<h1 style="margin-top:1rem">Maggie with full of Nutrients</h1>
+<style>
+    .heading{
+        margin-top:1rem;
+    }
+    .infoWrapper{
+        display:flex;
+        gap:2rem;
+    }
+    .servingTimingWrapper{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .title{
+        font-weight:700;
+    }
+    .subTitle{
+        font-size:0.9rem;
+    }
+    .imgWrapper{
+        text-align:center; 
+        padding:1rem 0rem;
+    }
+    img{
+        max-width: 80%;
+        border-radius: 1rem
+    }
+</style>
 
-<div style="display:flex ; gap:2rem ;">
-    <div  style='display: flex;
-    align-items: center;
-    gap: 0.5rem;'> 
-        <div style="font-weight:700">Timing:</div>
-        <div style="font-size:0.9rem">10mins - 15mins</div>
+<h1 class='heading'>Maggie with full of nutrients</h1>
+
+<div class='infoWrapper'>
+    <div class='servingTimingWrapper'> 
+        <div class='title'>Timing:</div>
+        <div class='subtitle'>10mins - 15mins</div>
     </div> 
-    <div style='display: flex;
-    align-items: center;
-    gap: 0.5rem;'>
-        <div style="font-weight:700">Servings:</div> 
-        <div style="font-size:0.9rem">2 Person</div>
+    <div class='servingTimingWrapper'>
+        <div class='title'>Servings:</div> 
+        <div class='subTitle'>2 Person</div>
     </div>
 </div>
 
-<div style="text-align:center ; padding:1rem 0rem">
-<img src='/maggie.jpg' style="max-width: 80%;border-radius: 1rem" alt='chilli-potato' />
+<div class='imgWrapper'>
+<img src='/maggie.jpg' alt='maggie' />
 </div>
 
 ## Basic Ingredients
 
 Following are the basic ingredients which should be easily available inside your kitchen
 
-- 1 Packet: Maggie 2-Minute Noodles (Masala)
+- 1 Packet: Maggie 2-minute noodles (masala)
 - 1 Tablespoon: Oil
-- 1 Tomato: Fine Chopped
-- 1 Onion: Fine Chopped
-- 1 Green Chilli: Fine Chopped
-- 1 Cup: Fresh Peas (If available)
+- 1 Tomato: Fine chopped
+- 1 Onion: Fine chopped
+- 1 Green Chilli: Fine chopped
+- 1 Cup: Fresh peas (if available)
 - Salt: As per taste
 
 ### Instructions
 
 **Step 1:** Prepare ingredients as mentioned in above list.
 
-**Step 2:** Add 0il to pan, heat it. Then onion(chopped), tomato(Chopped), greenChilli(chopped), fresh peas and give it stir and let them
-cook for a while (2-3mins)!
+**Step 2:** Add oil to pan, heat it. Then onion(chopped), tomato(chopped), greenchilli(chopped), fresh peas and give it stir and let them
+cook for a while (2-3mins).
 
-**Step 3:** Cook one pack of MAGGI Masala Noodles (just follow the instructions on the pack) in a separate pan.
+**Step 3:** Cook one pack of maggie masala noodles (just follow the instructions on the pack) in a separate pan.
 
-**Step 4:** Mix Vegetables with Maggie (Add Salt if needed). Cook for 1mins in high flame.
+**Step 4:** Mix vegetables with maggie (add salt if needed). Cook for 1mins in high flame.
 
 **Step 5:** You are ready to serve the easy peasy fun.
