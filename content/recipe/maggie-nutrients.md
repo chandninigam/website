@@ -69,7 +69,7 @@ Following are the basic ingredients which should be easily available inside your
 **Step 2:** Add oil to pan, heat it. Then onion(chopped), tomato(chopped), greenchilli(chopped), fresh peas and give it stir and let them
 cook for a while (2-3mins).
 
-**Step 3:** Cook one pack of maggie masala noodles (just follow the instructions on the pack) in a separate pan.
+**Step 3:** Take a pan and add 2cup of water and boil. Add maggie to it and cook for 2 to 3 min.
 
 **Step 4:** Mix vegetables with maggie (add salt if needed). Cook for 1mins in high flame.
 
