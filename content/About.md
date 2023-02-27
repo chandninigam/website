@@ -9,9 +9,6 @@
         width:150px;
         object-fit: contain; 
     }
-    .heading{
-        margin:2rem 0rem;
-    }
 </style>
 
 <div class='wrapper'>

@@ -1,8 +1,8 @@
-My name is Chandni Nigam, I am born and brought up in Lucknow, Uttar Pradesh. I have done bachelors in Computer Science Engineering from BBD: NITM. I am passionate about frontend engineering (web and mobile) and I work with different technologies including HTML, CSS/SCSS, Javascript/Typescript, React/React Native/Next. I have worked at <a href="https://jaxl.com/" style="color: #531fff; text-underline-position: under;">Jaxl Innovation Private Limited </a> in the past.
+My name is Chandni Nigam, I am born and brought up in Lucknow, Uttar Pradesh. I have done bachelors in Computer Science Engineering from BBD: NITM. I am passionate about frontend engineering (web and mobile) and I work with different technologies including HTML, CSS/SCSS, Javascript/Typescript, React/React Native/Next. I have worked at <a href="https://jaxl.com/" >Jaxl Innovation Private Limited </a> in the past.
 
 In my free time, I like to read books, currently I'm reading Atomic Habits. I also like cooking.
 
-<h2 style="margin: 2rem 0rem;">Technologies</h2>
+<h2 class='heading'>Technologies</h2>
 
 <ul class="card-wrapper">
     <li class="card">HTML5</li>
