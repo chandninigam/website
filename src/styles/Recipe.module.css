@@ -1,4 +1,14 @@
-.wrapper {
-  padding-top: 7rem;
-  padding-bottom: 1rem;
+.content img {
+  max-width: 80%;
+  max-height: 220px;
+  display: flex;
+  margin: 1rem auto;
+  border-radius: 0.4rem;
+  object-fit: cover;
+}
+@media screen and (min-width: 768px) {
+  .content img {
+    width: 70%;
+    max-height: 320px;
+  }
 }

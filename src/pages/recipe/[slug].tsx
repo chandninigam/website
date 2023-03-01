@@ -17,14 +17,12 @@ export default function Recipe(props: IRecipeProps) {
   return (
     <Container>
       <Header activeTab="Recipes" />
-      <main className="content-wrapper">
-        <article
-          dangerouslySetInnerHTML={{
-            __html: props.markup,
-          }}
-          className={styles.container}
-        />
-      </main>
+      <article
+        dangerouslySetInnerHTML={{
+          __html: props.markup,
+        }}
+        className={`${styles.content} content-wrapper`}
+      />
       <Footer />
     </Container>
   );
