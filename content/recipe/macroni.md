@@ -28,7 +28,7 @@ date: 28-2-2023
         padding:1rem 0rem;
     }
     img{
-        width: 70%;
+        width: 90%;
         aspect-ratio: 4/3;
         object-fit: cover;
         border-radius: 0.2rem
