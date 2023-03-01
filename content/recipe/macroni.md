@@ -50,7 +50,7 @@ date: 28-2-2023
 <img src='/recipes/macaroni/readystate.jpg' alt='readystate' />
 </div>
 
-## Basic Ingredients
+## Ingredients
 
 Following are the basic ingredients which should be easily available inside your kitchen
 
