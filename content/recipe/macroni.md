@@ -71,7 +71,10 @@ Following are the basic ingredients which should be easily available inside your
 ### Instructions
 
 **Step 1:** Prepare ingredients as mentioned in above list.
+
+<div class='imgWrapper'>
 <img src='/recipes/macaroni/ingredients.jpg' alt='ingredient' />
+</div>
 
 **Step 2:** In a pan, heat 3 cups water and 1/2 teaspoon salt. Bring it to a boil.
 
@@ -80,12 +83,18 @@ Following are the basic ingredients which should be easily available inside your
 **Step 4:** Stir with a fork.
 
 **Step 5:** Begin to cook macaroni on medium to medium-high heat.
+
+<div class='imgWrapper'>
 <img src='/recipes/macaroni/boilinginprogress.jpg' alt='boiling' />
+</div>
 
 **Step 6:** Cook macaroni till they are al dente – meaning they should have a slight bite to them.
 
 **Step 7:** Drain all the water and keep cooked macaroni aside.
+
+<div class='imgWrapper'>
 <img src='/recipes/macaroni/boiled.jpg' alt='boiled' />
+</div>
 
 **Step 8:** Heat 2 tablespoons of oil in a pan. Lower the heat. You can also add 1/2 teaspoon ginger-garlic paste.
 
@@ -98,12 +107,18 @@ Following are the basic ingredients which should be easily available inside your
 **Step 12:** Then add 1 cup of tightly packed finely chopped tomatoes. Mix well.
 
 **Step 13:** Cook tomatoes on a low to medium-low heat till they soften and become pulpy.
+
+<div class='imgWrapper'>
 <img src='/recipes/macaroni/mixedvegetable.jpg' alt='mixedveg' />
+</div>
 
 **Step 14:** Now add all the spice powders one by one as mention above in ingredients. Mix and sauté the spice powders for some seconds till you get a nice aroma from the spice powders.
 
 **Step 16:** Season with salt as per taste. Mix very well.
+
+<div class='imgWrapper'>
 <img src='/recipes/macaroni/masala.jpg' alt='masala' />
+</div>
 
 **Step 17:** Once the vegetables are cooked and tender, add the cooked macaroni. Some gravy or curry or sauce will be there when you add the macaroni. Mix well.
 
@@ -112,4 +127,7 @@ Following are the basic ingredients which should be easily available inside your
 **Step 19:** Mix again. Add the seasonings and herbs and add more salt if required.
 
 **Step 20:** Garnish the macaroni with some finely chopped coriander leaves before serving.
+
+<div class='imgWrapper'>
 <img src='/recipes/macaroni/readystate.jpg' alt='readystate' />
+</div>
