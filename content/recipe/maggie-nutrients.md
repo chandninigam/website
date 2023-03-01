@@ -1,5 +1,5 @@
 ---
-title: Maggie with full of Nutrients
+title: Maggie with full of nutrients
 id: 1
 date: 12-1-2023
 ---
