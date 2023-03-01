@@ -1,5 +1,5 @@
 ---
-title: Macaroni with full of Nutrients
+title: Macaroni with full of nutrients
 id: 2
 date: 28-2-2023
 ---
@@ -28,8 +28,10 @@ date: 28-2-2023
         padding:1rem 0rem;
     }
     img{
-        max-width: 80%;
-        border-radius: 1rem
+        height: 300px;
+        width: 450px;
+        object-fit: cover;
+        border-radius: 0.2rem
     }
 </style>
 
