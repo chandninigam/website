@@ -10,7 +10,9 @@ date: 28-2-2023
     }
     .infoWrapper{
         display:flex;
-        gap:2rem;
+        flex-direction:row;
+        gap:1rem;
+        justify-content:space-between;
     }
     .servingTimingWrapper{
         display: flex;
@@ -22,17 +24,15 @@ date: 28-2-2023
     }
     .subTitle{
         font-size:0.9rem;
+        opacity:0.8;
     }
-    .imgWrapper{
-        text-align:center; 
-        padding:1rem 0rem;
+    @media screen and (max-width:360px){
+        .infoWrapper{
+            flex-direction:column;
+            gap:0;
+        }
     }
-    img{
-        width: 90%;
-        aspect-ratio: 4/3;
-        object-fit: cover;
-        border-radius: 0.2rem
-    }
+    
 </style>
 
 <h1 class='heading'>Macaroni with full of nutrients</h1>
@@ -40,7 +40,7 @@ date: 28-2-2023
 <div class='infoWrapper'>
     <div class='servingTimingWrapper'> 
         <div class='title'>Timing:</div>
-        <div class='subtitle'>20mins - 25mins</div>
+        <div class='subTitle'>20mins - 25mins</div>
     </div> 
     <div class='servingTimingWrapper'>
         <div class='title'>Servings:</div> 
@@ -48,9 +48,7 @@ date: 28-2-2023
     </div>
 </div>
 
-<div class='imgWrapper'>
 <img src='/recipes/macaroni/readystate.jpg' alt='readystate' />
-</div>
 
 ## Ingredients
 
