@@ -6,7 +6,6 @@ import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
-import styles from "../styles/Contact.module.css";
 
 interface IContactProps {
   content: string;

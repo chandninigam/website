@@ -6,7 +6,6 @@ import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
-import styles from "../styles/About.module.css";
 
 interface IAboutProps {
   content: string;
