@@ -14,7 +14,7 @@ date: 28-2-2023
         gap:1rem;
         justify-content:space-between;
     }
-    .servingTimingWrapper{
+    .titleValueWrapper{
         display: flex;
         align-items: center;
         gap: 0.5rem;
@@ -22,7 +22,7 @@ date: 28-2-2023
     .title{
         font-weight:700;
     }
-    .subTitle{
+    .value{
         font-size:0.9rem;
         opacity:0.8;
     }
@@ -38,13 +38,13 @@ date: 28-2-2023
 <h1 class='heading'>Macaroni with full of nutrients</h1>
 
 <div class='infoWrapper'>
-    <div class='servingTimingWrapper'> 
+    <div class='titleValueWrapper'> 
         <div class='title'>Timing:</div>
-        <div class='subTitle'>20mins - 25mins</div>
+        <div class='value'>20mins - 25mins</div>
     </div> 
-    <div class='servingTimingWrapper'>
+    <div class='titleValueWrapper'>
         <div class='title'>Servings:</div> 
-        <div class='subTitle'>2 Person</div>
+        <div class='value'>2 Person</div>
     </div>
 </div>
 
