@@ -47,7 +47,7 @@ date: 12-1-2023
 </div>
 
 <div class='imgWrapper'>
-<img src='/recipes/maggie/main.jpg' alt='maggie' />
+<img src='/recipe/maggie/main.jpg' alt='maggie' />
 </div>
 
 ## Basic Ingredients
