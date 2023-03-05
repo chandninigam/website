@@ -1,6 +1,6 @@
 ---
 title: Macaroni with full of nutrients
-id: 2
+id: 1
 date: 28-2-2023
 ---
 
@@ -48,7 +48,7 @@ date: 28-2-2023
     </div>
 </div>
 
-<img src='/recipe/macaroni/ready-state.jpg' alt='readystate' />
+<img src='/recipe/macaroni-with-full-of-nutrients/ready-state.jpg' alt='readystate' />
 
 ## Ingredients
 
@@ -72,7 +72,7 @@ Following are the basic ingredients which should be easily available inside your
 
 **Step 1:** Prepare ingredients as mentioned in above list.
 
-<img src='/recipe/macaroni/ingredients.jpg' alt='ingredient' />
+<img src='/recipe/macaroni-with-full-of-nutrients/ingredients.jpg' alt='ingredient' />
 
 **Step 2:** In a pan, heat 3 cups water and 1/2 teaspoon salt. Bring it to a boil.
 
@@ -82,13 +82,13 @@ Following are the basic ingredients which should be easily available inside your
 
 **Step 5:** Begin to cook macaroni on medium to medium-high heat.
 
-<img src='/recipe/macaroni/boiling-in-progress.jpg' alt='boiling-in-progress' />
+<img src='/recipe/macaroni-with-full-of-nutrients/boiling-in-progress.jpg' alt='boiling-in-progress' />
 
 **Step 6:** Cook macaroni till they are al dente – meaning they should have a slight bite to them.
 
 **Step 7:** Drain all the water and keep cooked macaroni aside.
 
-<img src='/recipe/macaroni/boiled.jpg' alt='boiled' />
+<img src='/recipe/macaroni-with-full-of-nutrients/boiled.jpg' alt='boiled' />
 
 **Step 8:** Heat 2 tablespoons of oil in a pan. Lower the heat. You can also add 1/2 teaspoon ginger-garlic paste.
 
@@ -102,13 +102,13 @@ Following are the basic ingredients which should be easily available inside your
 
 **Step 13:** Cook tomatoes on a low to medium-low heat till they soften and become pulpy.
 
-<img src='/recipe/macaroni/mixed-vegetable.jpg' alt='mixedveg' />
+<img src='/recipe/macaroni-with-full-of-nutrients/mixed-vegetable.jpg' alt='mixedveg' />
 
 **Step 14:** Now add all the spice powders one by one as mention above in ingredients. Mix and sauté the spice powders for some seconds till you get a nice aroma from the spice powders.
 
 **Step 16:** Season with salt as per taste. Mix very well.
 
-<img src='/recipe/macaroni/add-masala.jpg' alt='masala' />
+<img src='/recipe/macaroni-with-full-of-nutrients/add-masala.jpg' alt='masala' />
 
 **Step 17:** Once the vegetables are cooked and tender, add the cooked macaroni. Some gravy or curry or sauce will be there when you add the macaroni. Mix well.
 
@@ -118,4 +118,4 @@ Following are the basic ingredients which should be easily available inside your
 
 **Step 20:** Garnish the macaroni with some finely chopped coriander leaves before serving.
 
-<img src='/recipe/macaroni/ready-state.jpg' alt='readystate' />
+<img src='/recipe/macaroni-with-full-of-nutrients/ready-state.jpg' alt='readystate' />
