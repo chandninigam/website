@@ -11,6 +11,7 @@ const NavTabs: Array<NavData> = [
   { text: "Home", link: "/" },
   { text: "Recipes", link: "/recipe" },
   { text: "About", link: "/about" },
+  { text: "Project", link: "/project" },
   { text: "Contact", link: "/contact" },
 ];
 
