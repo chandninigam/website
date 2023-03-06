@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "../styles/Header.module.css";
-import { useState } from "react";
 
 export interface NavData {
   text: string;
@@ -12,6 +11,7 @@ const NavTabs: Array<NavData> = [
   { text: "Projects", link: "/project" },
   { text: "Recipes", link: "/recipe" },
   { text: "About", link: "/about" },
+  { text: "Resume", link: "/resume.pdf" },
   { text: "Contact", link: "/contact" },
 ];
 
