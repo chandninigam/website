@@ -73,7 +73,7 @@ export function Head() {
         sizes="16x16"
         href="/icons/favicon-16x16.png"
       />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="theme-color" content="#ededed" />
     </NextHead>
   );
 }
