@@ -3,7 +3,7 @@ import NextHead from "next/head";
 export function Head() {
   return (
     <NextHead>
-      <title>Chandni Nigam Website</title>
+      <title>Chandni Nigam&apos;s Website</title>
       <link
         rel="apple-touch-icon"
         sizes="57x57"
