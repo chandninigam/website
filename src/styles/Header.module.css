@@ -19,6 +19,7 @@
   margin: 0;
 }
 .ulHeader {
+  overflow-x: scroll;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -35,4 +36,8 @@
 .link {
   text-decoration: none;
   color: #9c9b98;
+}
+
+.ulHeader::-webkit-scrollbar {
+  display: none;
 }
