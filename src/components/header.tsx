@@ -65,7 +65,7 @@ export default function Header(props: { activeTab: string }) {
         </nav>
         {/* <button
           onClick={() => {
-            // setToggleTheme(!toggleTheme);
+            setToggleTheme(!toggleTheme);
           }}
         >
           Toggle
