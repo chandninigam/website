@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "../styles/Header.module.css";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { Theme } from "../context/theme";
 
 export interface NavData {
   text: string;
@@ -43,8 +44,12 @@ export function Tab(props: { tab: NavData; activeTab: string }) {
  */
 export default function Header(props: { activeTab: string }) {
   const [toggleTheme, setToggleTheme] = useState(false);
+  // const {isDarkTheme} = useContext(Theme)
   return (
-    <header className={toggleTheme ? styles.toggleWrapper : styles.wrapper}>
+    <header
+      className={styles.wrapper}
+      // className={toggleTheme ? styles.toggleWrapper : styles.wrapper}
+    >
       <div className={styles.headerContent}>
         <h1 className={styles.heading}>
           <Link href="/" className={styles.headerTitleLink}>
@@ -60,7 +65,7 @@ export default function Header(props: { activeTab: string }) {
         </nav>
         {/* <button
           onClick={() => {
-            setToggleTheme(!toggleTheme);
+            // setToggleTheme(!toggleTheme);
           }}
         >
           Toggle
