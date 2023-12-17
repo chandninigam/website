@@ -1,11 +1,7 @@
 import Link from "next/link";
 import styles from "../styles/Header.module.css";
-<<<<<<< HEAD
-import { useState } from "react";
-=======
 import { useState, useContext } from "react";
 import { Theme } from "../context/theme";
->>>>>>> 502015bad0d00f0b3675c8fb6f6ecbd98bf451ea
 
 export interface NavData {
   text: string;
