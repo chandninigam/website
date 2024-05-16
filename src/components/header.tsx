@@ -11,7 +11,7 @@ export interface NavData {
 const NavTabs: Array<NavData> = [
   { text: "Home", link: "/" },
   { text: "Projects", link: "/project" },
-  { text: "Recipes", link: "/recipe" },
+  // { text: "Recipes", link: "/recipe" },
   { text: "About", link: "/about" },
   { text: "Resume", link: "/resume.pdf" },
   { text: "Contact", link: "/contact" },
