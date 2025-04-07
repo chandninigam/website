@@ -1,3 +1,3 @@
 # Website
 
-Link: https://website-chandni-nigams-projects.vercel.app/
+Link: https://chandninigam.vercel.app/
