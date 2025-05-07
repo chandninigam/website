@@ -23,7 +23,7 @@ After engineering, I started my career at <a href="https://jaxl.com/">Jaxl Innov
 
 I then joined <a href="https://www.okoders.com/">Okoders Technology</a> as a Software Engineer, where I focused on mobile application development using React Native, building cross-platform apps with smooth user experiences and clean architecture.
 
-After that, I worked at Mobile Programming India Pvt. Ltd. on the <a href="https://www.adanione.com/">Adanione </a> project as a Frontend Developer, contributing to scalable UI development using React, Next.js, and TypeScript.
+After that, I worked at Mobile Programming India Pvt. Ltd. on the <a href="https://www.adanione.com/">Adani One </a> project as a Frontend Developer, contributing to scalable UI development using React, Next.js, and TypeScript.
 
 Other than the job, I have created some projects - Instagram clone (React Native), E-Commerce website (React.js) etc.
 I like to read books, currently I'm reading Rich Dad Poor Dad. Some of the books, which I've read includes Life is an amazing Secret, The 7 Habits of Highly Effective People, Atomic Habbit and The Fault in our Star.
